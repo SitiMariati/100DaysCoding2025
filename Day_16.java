@@ -9,10 +9,10 @@ public class Day_16 {
        int angka_2 = 2;
        
        int perkalian = angka_1 * angka_2;
-       int pengurangan = angka_1 / angka_2;
+       int pembagian = angka_1 / angka_2;
        
         System.out.println("Hasil Perkalian = " + perkalian);
-        System.out.println("Hasil Pengurangan = " + pengurangan);
+        System.out.println("Hasil Pembagian = " + pembagian);
     }
     
 }

@@ -3,7 +3,7 @@ package day_21;
 public class Day_21 {
 
     public static void main(String[] args) {
-        int a = 10;
+        int a = 23;
         System.out.println("nilai A = " + a);
         int b = 15;
         System.out.println("nilai B = " + b);

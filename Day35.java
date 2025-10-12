@@ -6,13 +6,13 @@ public class Day35 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
-        System.out.print("Ketikkan angka : ");
-        int angka = in.nextInt();
+        System.out.print("Ketikkan Hari : ");
+        String hari = in.nextLine();
         
-        if(angka > 0){
-            System.out.println("Bilangan positif");
+        if(hari.equalsIgnoreCase("sabtu")  || hari.equalsIgnoreCase("Minggu")){
+            System.out.println("Hari libur");
         }else{
-            System.out.println("Bilangan negatif");
+            System.out.println("Hari kerja");
         }
     }
     
